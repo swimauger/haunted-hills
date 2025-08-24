@@ -1,0 +1,7 @@
+[gd_resource type="FontVariation" load_steps=2 format=3 uid="uid://bgk3kxqffarjb"]
+
+[ext_resource type="FontFile" uid="uid://dxhekx0j3krpc" path="res://fonts/endless_sorrow.ttf" id="1_sxff7"]
+
+[resource]
+base_font = ExtResource("1_sxff7")
+variation_embolden = 0.5

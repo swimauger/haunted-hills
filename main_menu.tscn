@@ -1,6 +1,17 @@
-[gd_scene format=3 uid="uid://c0vpngifug8yq"]
+[gd_scene load_steps=6 format=3 uid="uid://c0vpngifug8yq"]
 
-[node name="Control" type="Control"]
+[ext_resource type="FontVariation" uid="uid://bgk3kxqffarjb" path="res://fonts/endless_sorrow.tres" id="1_7vrkn"]
+[ext_resource type="PackedScene" uid="uid://dgluigfnpu7b" path="res://buttons/main_menu_button.tscn" id="2_7vrkn"]
+[ext_resource type="FontFile" uid="uid://4qfv6vh02nbx" path="res://fonts/old_times_american.ttf" id="3_fu7sn"]
+
+[sub_resource type="Gradient" id="Gradient_rhts7"]
+colors = PackedColorArray(0.133333, 0.133333, 0.133333, 1, 0.0666667, 0.0666667, 0.0666667, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_06t4h"]
+gradient = SubResource("Gradient_rhts7")
+fill_to = Vector2(0, 1)
+
+[node name="MainMenu" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -8,11 +19,69 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
-[node name="Background" type="ColorRect" parent="."]
+[node name="Background" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-color = Color(0.2, 0.2, 0.2, 1)
+texture = SubResource("GradientTexture2D_06t4h")
+
+[node name="MenuContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -250.0
+offset_top = -201.0
+offset_right = 250.0
+offset_bottom = 201.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 24
+alignment = 1
+
+[node name="TitleLabel" type="Label" parent="MenuContainer"]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_7vrkn")
+theme_override_font_sizes/font_size = 72
+text = "Haunted Hills"
+horizontal_alignment = 1
+
+[node name="HostButton" parent="MenuContainer" instance=ExtResource("2_7vrkn")]
+layout_mode = 2
+text = "Host Game"
+
+[node name="JoinButton" parent="MenuContainer" instance=ExtResource("2_7vrkn")]
+layout_mode = 2
+text = "Join Game"
+
+[node name="ButtonContainer" type="HBoxContainer" parent="MenuContainer"]
+layout_mode = 2
+theme_override_constants/separation = 24
+
+[node name="SettingsButton" parent="MenuContainer/ButtonContainer" instance=ExtResource("2_7vrkn")]
+layout_mode = 2
+text = "Settings"
+
+[node name="VolumeButton" parent="MenuContainer/ButtonContainer" instance=ExtResource("2_7vrkn")]
+layout_mode = 2
+text = "Volume"
+
+[node name="CustomizePlayerButton" parent="MenuContainer" instance=ExtResource("2_7vrkn")]
+layout_mode = 2
+text = "Customize Player"
+
+[node name="QuitButton" parent="MenuContainer" instance=ExtResource("2_7vrkn")]
+layout_mode = 2
+text = "Quit"
+
+[node name="VersionLabel" type="Label" parent="MenuContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_fu7sn")
+text = "v0.1.0"
+horizontal_alignment = 2
