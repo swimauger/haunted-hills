@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://bttmm3su628y"]
+
+[ext_resource type="PackedScene" uid="uid://xe88vnwx08k1" path="res://maps/horror_mansion.glb" id="1_8wqfs"]
+
+[node name="HorrorMansion" type="Node3D"]
+
+[node name="HorrorMansionMap" parent="." instance=ExtResource("1_8wqfs")]
