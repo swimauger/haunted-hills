@@ -1,4 +1,4 @@
-[gd_scene load_steps=6 format=3 uid="uid://c0vpngifug8yq"]
+[gd_scene load_steps=13 format=3 uid="uid://c0vpngifug8yq"]
 
 [ext_resource type="FontVariation" uid="uid://bgk3kxqffarjb" path="res://fonts/endless_sorrow.tres" id="1_7vrkn"]
 [ext_resource type="PackedScene" uid="uid://dgluigfnpu7b" path="res://buttons/main_menu_button.tscn" id="2_7vrkn"]
@@ -10,6 +10,41 @@ colors = PackedColorArray(0.133333, 0.133333, 0.133333, 1, 0.0666667, 0.0666667,
 [sub_resource type="GradientTexture2D" id="GradientTexture2D_06t4h"]
 gradient = SubResource("Gradient_rhts7")
 fill_to = Vector2(0, 1)
+
+[sub_resource type="Gradient" id="Gradient_fu7sn"]
+colors = PackedColorArray(1, 1, 1, 0.392157, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_jix8l"]
+gradient = SubResource("Gradient_fu7sn")
+
+[sub_resource type="Curve" id="Curve_glbon"]
+_limits = [0.0, 3.0, 0.0, 1.0]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_nlkkf"]
+_limits = [0.0, 20.0, 0.0, 1.0]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(0.248963, 10), 0.0, 0.0, 0, 0, Vector2(0.991701, 10), 0.0, 0.0, 0, 0]
+point_count = 3
+
+[sub_resource type="Curve" id="Curve_qe12f"]
+_limits = [0.0, 3.0, 0.0, 1.0]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveXYZTexture" id="CurveXYZTexture_8qtwp"]
+curve_x = SubResource("Curve_glbon")
+curve_y = SubResource("Curve_nlkkf")
+curve_z = SubResource("Curve_qe12f")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_fu7sn"]
+particle_flag_disable_z = true
+emission_shape = 3
+emission_box_extents = Vector3(576, 1, 1)
+gravity = Vector3(0, 540, 0)
+scale_max = 3.0
+scale_over_velocity_curve = SubResource("CurveXYZTexture_8qtwp")
+color_initial_ramp = SubResource("GradientTexture1D_jix8l")
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -27,6 +62,19 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = SubResource("GradientTexture2D_06t4h")
+
+[node name="Control" type="Control" parent="Background"]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+grow_horizontal = 2
+
+[node name="GPUParticles2D" type="GPUParticles2D" parent="Background/Control"]
+amount = 100
+lifetime = 1.5
+visibility_rect = Rect2(-576, 0, 1152, 648)
+process_material = SubResource("ParticleProcessMaterial_fu7sn")
 
 [node name="MenuContainer" type="VBoxContainer" parent="."]
 layout_mode = 1
