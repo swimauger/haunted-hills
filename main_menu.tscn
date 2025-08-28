@@ -1,8 +1,11 @@
-[gd_scene load_steps=13 format=3 uid="uid://c0vpngifug8yq"]
+[gd_scene load_steps=18 format=3 uid="uid://c0vpngifug8yq"]
 
 [ext_resource type="FontVariation" uid="uid://bgk3kxqffarjb" path="res://fonts/endless_sorrow.tres" id="1_7vrkn"]
 [ext_resource type="PackedScene" uid="uid://dgluigfnpu7b" path="res://buttons/main_menu_button.tscn" id="2_7vrkn"]
 [ext_resource type="FontFile" uid="uid://4qfv6vh02nbx" path="res://fonts/old_times_american.ttf" id="3_fu7sn"]
+[ext_resource type="AudioStream" uid="uid://cvkr10w8a0apn" path="res://audio/nightmare_machine.mp3" id="4_nlkkf"]
+[ext_resource type="AudioStream" uid="uid://divtr22jy1lf" path="res://audio/shadowlands1_horizon.mp3" id="5_qe12f"]
+[ext_resource type="AudioStream" uid="uid://cvvbfuoi21dbh" path="res://audio/shadowlands2_bridge.mp3" id="6_8qtwp"]
 
 [sub_resource type="Gradient" id="Gradient_rhts7"]
 colors = PackedColorArray(0.133333, 0.133333, 0.133333, 1, 0.0666667, 0.0666667, 0.0666667, 1)
@@ -45,6 +48,20 @@ gravity = Vector3(0, 540, 0)
 scale_max = 3.0
 scale_over_velocity_curve = SubResource("CurveXYZTexture_8qtwp")
 color_initial_ramp = SubResource("GradientTexture1D_jix8l")
+
+[sub_resource type="GDScript" id="GDScript_nlkkf"]
+resource_name = "quit_button"
+script/source = "extends Button
+
+func _pressed() -> void:
+	self.get_tree().quit()
+"
+
+[sub_resource type="AudioStreamPlaylist" id="AudioStreamPlaylist_dy7ct"]
+stream_count = 3
+stream_0 = ExtResource("4_nlkkf")
+stream_1 = ExtResource("5_qe12f")
+stream_2 = ExtResource("6_8qtwp")
 
 [node name="MainMenu" type="Control"]
 layout_mode = 3
@@ -126,6 +143,7 @@ text = "Customize Player"
 [node name="QuitButton" parent="MenuContainer" instance=ExtResource("2_7vrkn")]
 layout_mode = 2
 text = "Quit"
+script = SubResource("GDScript_nlkkf")
 
 [node name="VersionLabel" type="Label" parent="MenuContainer"]
 layout_mode = 2
@@ -133,3 +151,7 @@ theme_override_colors/font_color = Color(1, 1, 1, 1)
 theme_override_fonts/font = ExtResource("3_fu7sn")
 text = "v0.1.0"
 horizontal_alignment = 2
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = SubResource("AudioStreamPlaylist_dy7ct")
+autoplay = true
