@@ -1,0 +1,175 @@
+[gd_scene load_steps=7 format=3 uid="uid://ciwrmwag0fvl0"]
+
+[ext_resource type="PackedScene" uid="uid://dy6nh73odxuha" path="res://structures/guest_house.tscn" id="1_c1q6y"]
+[ext_resource type="PackedScene" uid="uid://byvb6v7w0ocar" path="res://character/character.tscn" id="2_3d43b"]
+[ext_resource type="PackedScene" uid="uid://dgluigfnpu7b" path="res://buttons/button.tscn" id="3_3d43b"]
+
+[sub_resource type="GDScript" id="GDScript_3d43b"]
+resource_name = "customize_player"
+script/source = "extends CanvasLayer
+
+@onready var character_skeleton: Skeleton3D = $CustomizationScreen/Character/rig/Skeleton3D
+@onready var character_animation: AnimationPlayer = $CustomizationScreen/Character/AnimationPlayer
+@onready var character_options: VBoxContainer = $CustomizationMenu/CustomizationContainer
+
+const DEFAULT_ANIMATION = \"Idle_001\"
+const CHARACTER_OPTION_NAMES = [
+	\"Body\",
+	\"Backpack\",
+	\"Eyebrow\",
+	\"Glasses\",
+	\"Glove\",
+	\"Hat\",
+	\"Outerwear\",
+	\"Pants\",
+	\"Hair\",
+	\"Mustache\",
+	\"Shoe\"
+]
+
+func _ready() -> void:
+	var animation = self.character_animation.get_animation(DEFAULT_ANIMATION)
+	animation.loop_mode = Animation.LOOP_LINEAR
+	self.character_animation.play(DEFAULT_ANIMATION)
+
+	for option_button in character_options.get_children():
+		if option_button is OptionButton:
+			for character_option_name in CHARACTER_OPTION_NAMES:
+				if option_button.name.begins_with(character_option_name):
+					for mesh in self.character_skeleton.get_children():
+						if mesh.name.begins_with(character_option_name):
+							option_button.add_item(mesh.name)
+							if mesh.visible: option_button.select(option_button.item_count)
+					option_button.item_selected.connect(create_option_selected_listener(option_button))
+
+func create_option_selected_listener(option_button: OptionButton):
+	return func on_option_selected(idx: int):
+		var item_text = option_button.get_item_text(idx)
+		var option_name_idx = CHARACTER_OPTION_NAMES.find_custom(func (character_option_name: String):
+			return item_text.begins_with(character_option_name)
+		)
+		var option_name = CHARACTER_OPTION_NAMES[option_name_idx]
+		for mesh in self.character_skeleton.get_children():
+			if mesh.name.begins_with(option_name):
+				if mesh.name == item_text:
+					mesh.visible = true
+				else:
+					mesh.visible = false
+"
+
+[sub_resource type="GDScript" id="GDScript_xsm4r"]
+resource_name = "cancel"
+script/source = "extends Button
+
+func _pressed() -> void:
+	self.get_tree().change_scene_to_file(\"res://scenes/main_menu.tscn\")
+"
+
+[sub_resource type="GDScript" id="GDScript_qd82l"]
+resource_name = "save"
+script/source = "extends Button
+
+func _pressed() -> void:
+	self.get_tree().change_scene_to_file(\"res://scenes/main_menu.tscn\")
+"
+
+[node name="CustomizePlayer" type="CanvasLayer"]
+script = SubResource("GDScript_3d43b")
+
+[node name="CustomizationScreen" type="Node3D" parent="."]
+
+[node name="GuestHouse" parent="CustomizationScreen" instance=ExtResource("1_c1q6y")]
+
+[node name="Character" parent="CustomizationScreen" instance=ExtResource("2_3d43b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 1.1, -2)
+
+[node name="Camera3D" type="Camera3D" parent="CustomizationScreen"]
+transform = Transform3D(1, 0, 0, 0, 0.965926, 0.258819, 0, -0.258819, 0.965926, 4, 2.5, -0.5)
+current = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="CustomizationScreen"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 2, 2)
+light_energy = 10.0
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="CustomizationScreen"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="SubViewport" type="SubViewport" parent="CustomizationScreen/SubViewportContainer"]
+handle_input_locally = false
+size = Vector2i(1280, 720)
+render_target_update_mode = 4
+
+[node name="Camera3D" type="Camera3D" parent="CustomizationScreen/SubViewportContainer/SubViewport"]
+transform = Transform3D(1, 0, 0, 0, 0.965926, 0.258819, 0, -0.258819, 0.965926, 4, 2.5, -0.5)
+current = true
+
+[node name="CustomizationMenu" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="CustomizationContainer" type="VBoxContainer" parent="CustomizationMenu"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CharacterCreation" type="Label" parent="CustomizationMenu/CustomizationContainer"]
+layout_mode = 2
+text = "Character Creation"
+
+[node name="BodyOptionButton" type="OptionButton" parent="CustomizationMenu/CustomizationContainer"]
+layout_mode = 2
+
+[node name="BackpackOptionButton" type="OptionButton" parent="CustomizationMenu/CustomizationContainer"]
+layout_mode = 2
+
+[node name="EyebrowOptionButton" type="OptionButton" parent="CustomizationMenu/CustomizationContainer"]
+layout_mode = 2
+
+[node name="GlassesOptionButton" type="OptionButton" parent="CustomizationMenu/CustomizationContainer"]
+layout_mode = 2
+
+[node name="GloveOptionButton" type="OptionButton" parent="CustomizationMenu/CustomizationContainer"]
+layout_mode = 2
+
+[node name="HatOptionButton" type="OptionButton" parent="CustomizationMenu/CustomizationContainer"]
+layout_mode = 2
+
+[node name="OuterwearOptionButton" type="OptionButton" parent="CustomizationMenu/CustomizationContainer"]
+layout_mode = 2
+
+[node name="PantsOptionButton" type="OptionButton" parent="CustomizationMenu/CustomizationContainer"]
+layout_mode = 2
+
+[node name="HairOptionButton" type="OptionButton" parent="CustomizationMenu/CustomizationContainer"]
+layout_mode = 2
+
+[node name="MustacheOptionButton" type="OptionButton" parent="CustomizationMenu/CustomizationContainer"]
+layout_mode = 2
+
+[node name="ShoeOptionButton" type="OptionButton" parent="CustomizationMenu/CustomizationContainer"]
+layout_mode = 2
+
+[node name="SubmitContainer" type="HBoxContainer" parent="CustomizationMenu/CustomizationContainer"]
+layout_mode = 2
+
+[node name="CancelButton" parent="CustomizationMenu/CustomizationContainer/SubmitContainer" instance=ExtResource("3_3d43b")]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_font_sizes/font_size = 12
+text = "Cancel"
+script = SubResource("GDScript_xsm4r")
+
+[node name="SaveButton" parent="CustomizationMenu/CustomizationContainer/SubmitContainer" instance=ExtResource("3_3d43b")]
+layout_mode = 2
+size_flags_vertical = 0
+theme_override_font_sizes/font_size = 12
+text = "Save"
+script = SubResource("GDScript_qd82l")

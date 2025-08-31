@@ -1,0 +1,5 @@
+[gd_scene load_steps=2 format=3 uid="uid://dy6nh73odxuha"]
+
+[ext_resource type="PackedScene" uid="uid://bwavsicrt1xl3" path="res://structures/guest_house_1_001.glb" id="1_3pksl"]
+
+[node name="GuestHouse" instance=ExtResource("1_3pksl")]

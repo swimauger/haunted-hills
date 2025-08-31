@@ -1,0 +1,1634 @@
+[gd_scene load_steps=2 format=3 uid="uid://byvb6v7w0ocar"]
+
+[ext_resource type="PackedScene" uid="uid://cav3bc76koghi" path="res://character/character.glb" id="1_yf0e5"]
+
+[node name="Character" instance=ExtResource("1_yf0e5")]
+
+[node name="Action_figure_001" parent="rig/Skeleton3D" index="0"]
+visible = false
+
+[node name="Alien_001" parent="rig/Skeleton3D" index="1"]
+visible = false
+
+[node name="Astronaut_001" parent="rig/Skeleton3D" index="2"]
+visible = false
+
+[node name="Backpack_001" parent="rig/Skeleton3D" index="3"]
+visible = false
+
+[node name="Backpack_002" parent="rig/Skeleton3D" index="4"]
+visible = false
+
+[node name="Backpack_003" parent="rig/Skeleton3D" index="5"]
+visible = false
+
+[node name="Backpack_004" parent="rig/Skeleton3D" index="6"]
+visible = false
+
+[node name="Backpack_005" parent="rig/Skeleton3D" index="7"]
+visible = false
+
+[node name="Backpack_006" parent="rig/Skeleton3D" index="8"]
+visible = false
+
+[node name="Backpack_007" parent="rig/Skeleton3D" index="9"]
+visible = false
+
+[node name="Backpack_008" parent="rig/Skeleton3D" index="10"]
+visible = false
+
+[node name="Backpack_009" parent="rig/Skeleton3D" index="11"]
+visible = false
+
+[node name="Backpack_010" parent="rig/Skeleton3D" index="12"]
+visible = false
+
+[node name="Backpack_011" parent="rig/Skeleton3D" index="13"]
+visible = false
+
+[node name="Backpack_012" parent="rig/Skeleton3D" index="14"]
+visible = false
+
+[node name="Backpack_013" parent="rig/Skeleton3D" index="15"]
+visible = false
+
+[node name="Backpack_014" parent="rig/Skeleton3D" index="16"]
+visible = false
+
+[node name="Backpack_015" parent="rig/Skeleton3D" index="17"]
+visible = false
+
+[node name="Backpack_016" parent="rig/Skeleton3D" index="18"]
+visible = false
+
+[node name="Backpack_017" parent="rig/Skeleton3D" index="19"]
+visible = false
+
+[node name="Backpack_018" parent="rig/Skeleton3D" index="20"]
+visible = false
+
+[node name="Backpack_019" parent="rig/Skeleton3D" index="21"]
+visible = false
+
+[node name="Backpack_020" parent="rig/Skeleton3D" index="22"]
+visible = false
+
+[node name="Backpack_021" parent="rig/Skeleton3D" index="23"]
+visible = false
+
+[node name="Backpack_022" parent="rig/Skeleton3D" index="24"]
+visible = false
+
+[node name="Backpack_023" parent="rig/Skeleton3D" index="25"]
+visible = false
+
+[node name="Backpack_024" parent="rig/Skeleton3D" index="26"]
+visible = false
+
+[node name="Backpack_025" parent="rig/Skeleton3D" index="27"]
+visible = false
+
+[node name="Banana_001" parent="rig/Skeleton3D" index="28"]
+visible = false
+
+[node name="Body_Blue_002" parent="rig/Skeleton3D" index="30"]
+visible = false
+
+[node name="Body_Blue_003" parent="rig/Skeleton3D" index="31"]
+visible = false
+
+[node name="Body_Brown_001" parent="rig/Skeleton3D" index="32"]
+visible = false
+
+[node name="Body_Brown_002" parent="rig/Skeleton3D" index="33"]
+visible = false
+
+[node name="Body_Brown_003" parent="rig/Skeleton3D" index="34"]
+visible = false
+
+[node name="Body_Orange_001" parent="rig/Skeleton3D" index="35"]
+visible = false
+
+[node name="Body_Orange_002" parent="rig/Skeleton3D" index="36"]
+visible = false
+
+[node name="Body_Orange_003" parent="rig/Skeleton3D" index="37"]
+visible = false
+
+[node name="Body_Red_001" parent="rig/Skeleton3D" index="38"]
+visible = false
+
+[node name="Body_Red_002" parent="rig/Skeleton3D" index="39"]
+visible = false
+
+[node name="Body_Red_003" parent="rig/Skeleton3D" index="40"]
+visible = false
+
+[node name="Body_White_001" parent="rig/Skeleton3D" index="41"]
+visible = false
+
+[node name="Body_White_002" parent="rig/Skeleton3D" index="42"]
+visible = false
+
+[node name="Body_White_003" parent="rig/Skeleton3D" index="43"]
+visible = false
+
+[node name="Body_Yellow_001" parent="rig/Skeleton3D" index="44"]
+visible = false
+
+[node name="Body_Yellow_002" parent="rig/Skeleton3D" index="45"]
+visible = false
+
+[node name="Body_Yellow_003" parent="rig/Skeleton3D" index="46"]
+visible = false
+
+[node name="Crayfish_001" parent="rig/Skeleton3D" index="47"]
+visible = false
+
+[node name="Demon_001" parent="rig/Skeleton3D" index="48"]
+visible = false
+
+[node name="Eggplant_001" parent="rig/Skeleton3D" index="49"]
+visible = false
+
+[node name="Eyebrow_001" parent="rig/Skeleton3D" index="50"]
+visible = false
+
+[node name="Eyebrow_002" parent="rig/Skeleton3D" index="51"]
+visible = false
+
+[node name="Eyebrow_003" parent="rig/Skeleton3D" index="52"]
+visible = false
+
+[node name="Eyebrow_004" parent="rig/Skeleton3D" index="53"]
+visible = false
+
+[node name="Eyebrow_005" parent="rig/Skeleton3D" index="54"]
+visible = false
+
+[node name="Eyebrow_006" parent="rig/Skeleton3D" index="55"]
+visible = false
+
+[node name="Eyebrow_007" parent="rig/Skeleton3D" index="56"]
+visible = false
+
+[node name="Eyebrow_008" parent="rig/Skeleton3D" index="57"]
+visible = false
+
+[node name="Eyebrow_009" parent="rig/Skeleton3D" index="58"]
+visible = false
+
+[node name="Eyebrow_010" parent="rig/Skeleton3D" index="59"]
+visible = false
+
+[node name="Eyebrow_011" parent="rig/Skeleton3D" index="60"]
+visible = false
+
+[node name="Eyebrow_012" parent="rig/Skeleton3D" index="61"]
+visible = false
+
+[node name="Flower_001" parent="rig/Skeleton3D" index="62"]
+visible = false
+
+[node name="Ghost_001" parent="rig/Skeleton3D" index="63"]
+visible = false
+
+[node name="Gift_001" parent="rig/Skeleton3D" index="64"]
+visible = false
+
+[node name="Glasses_001" parent="rig/Skeleton3D" index="65"]
+visible = false
+
+[node name="Glasses_002" parent="rig/Skeleton3D" index="66"]
+visible = false
+
+[node name="Glasses_003" parent="rig/Skeleton3D" index="67"]
+visible = false
+
+[node name="Glasses_004" parent="rig/Skeleton3D" index="68"]
+visible = false
+
+[node name="Glasses_005" parent="rig/Skeleton3D" index="69"]
+visible = false
+
+[node name="Glasses_006" parent="rig/Skeleton3D" index="70"]
+visible = false
+
+[node name="Glasses_007" parent="rig/Skeleton3D" index="71"]
+visible = false
+
+[node name="Glasses_008" parent="rig/Skeleton3D" index="72"]
+visible = false
+
+[node name="Glasses_009" parent="rig/Skeleton3D" index="73"]
+visible = false
+
+[node name="Glasses_010" parent="rig/Skeleton3D" index="74"]
+visible = false
+
+[node name="Glasses_011" parent="rig/Skeleton3D" index="75"]
+visible = false
+
+[node name="Glasses_012" parent="rig/Skeleton3D" index="76"]
+visible = false
+
+[node name="Glasses_013" parent="rig/Skeleton3D" index="77"]
+visible = false
+
+[node name="Glasses_014" parent="rig/Skeleton3D" index="78"]
+visible = false
+
+[node name="Glasses_015" parent="rig/Skeleton3D" index="79"]
+visible = false
+
+[node name="Glasses_016" parent="rig/Skeleton3D" index="80"]
+visible = false
+
+[node name="Glasses_017" parent="rig/Skeleton3D" index="81"]
+visible = false
+
+[node name="Glasses_018" parent="rig/Skeleton3D" index="82"]
+visible = false
+
+[node name="Glasses_019" parent="rig/Skeleton3D" index="83"]
+visible = false
+
+[node name="Glasses_020" parent="rig/Skeleton3D" index="84"]
+visible = false
+
+[node name="Glasses_021" parent="rig/Skeleton3D" index="85"]
+visible = false
+
+[node name="Glasses_022" parent="rig/Skeleton3D" index="86"]
+visible = false
+
+[node name="Glasses_023" parent="rig/Skeleton3D" index="87"]
+visible = false
+
+[node name="Glasses_024" parent="rig/Skeleton3D" index="88"]
+visible = false
+
+[node name="Glasses_025" parent="rig/Skeleton3D" index="89"]
+visible = false
+
+[node name="Glove_001" parent="rig/Skeleton3D" index="90"]
+visible = false
+
+[node name="Glove_002" parent="rig/Skeleton3D" index="91"]
+visible = false
+
+[node name="Glove_003" parent="rig/Skeleton3D" index="92"]
+visible = false
+
+[node name="Glove_004" parent="rig/Skeleton3D" index="93"]
+visible = false
+
+[node name="Glove_005" parent="rig/Skeleton3D" index="94"]
+visible = false
+
+[node name="Glove_006" parent="rig/Skeleton3D" index="95"]
+visible = false
+
+[node name="Glove_007" parent="rig/Skeleton3D" index="96"]
+visible = false
+
+[node name="Glove_008" parent="rig/Skeleton3D" index="97"]
+visible = false
+
+[node name="Glove_009" parent="rig/Skeleton3D" index="98"]
+visible = false
+
+[node name="Glove_010" parent="rig/Skeleton3D" index="99"]
+visible = false
+
+[node name="Glove_011" parent="rig/Skeleton3D" index="100"]
+visible = false
+
+[node name="Glove_012" parent="rig/Skeleton3D" index="101"]
+visible = false
+
+[node name="Glove_013" parent="rig/Skeleton3D" index="102"]
+visible = false
+
+[node name="Glove_014" parent="rig/Skeleton3D" index="103"]
+visible = false
+
+[node name="Glove_015" parent="rig/Skeleton3D" index="104"]
+visible = false
+
+[node name="Glove_016" parent="rig/Skeleton3D" index="105"]
+visible = false
+
+[node name="Glove_017" parent="rig/Skeleton3D" index="106"]
+visible = false
+
+[node name="Glove_018" parent="rig/Skeleton3D" index="107"]
+visible = false
+
+[node name="Glove_019" parent="rig/Skeleton3D" index="108"]
+visible = false
+
+[node name="Glove_020" parent="rig/Skeleton3D" index="109"]
+visible = false
+
+[node name="Hair_001" parent="rig/Skeleton3D" index="110"]
+visible = false
+
+[node name="Hat_001" parent="rig/Skeleton3D" index="111"]
+visible = false
+
+[node name="Hat_002" parent="rig/Skeleton3D" index="112"]
+visible = false
+
+[node name="Hat_003" parent="rig/Skeleton3D" index="113"]
+visible = false
+
+[node name="Hat_004" parent="rig/Skeleton3D" index="114"]
+visible = false
+
+[node name="Hot_dog_001" parent="rig/Skeleton3D" index="115"]
+visible = false
+
+[node name="Lego_001" parent="rig/Skeleton3D" index="116"]
+visible = false
+
+[node name="Hat_005" parent="rig/Skeleton3D" index="117"]
+visible = false
+
+[node name="Hat_006" parent="rig/Skeleton3D" index="118"]
+visible = false
+
+[node name="Hat_007" parent="rig/Skeleton3D" index="119"]
+visible = false
+
+[node name="Hat_008" parent="rig/Skeleton3D" index="120"]
+visible = false
+
+[node name="Hat_009" parent="rig/Skeleton3D" index="121"]
+visible = false
+
+[node name="Hat_010" parent="rig/Skeleton3D" index="122"]
+visible = false
+
+[node name="Hat_011" parent="rig/Skeleton3D" index="123"]
+visible = false
+
+[node name="Hat_012" parent="rig/Skeleton3D" index="124"]
+visible = false
+
+[node name="Hat_013" parent="rig/Skeleton3D" index="125"]
+visible = false
+
+[node name="Hat_014" parent="rig/Skeleton3D" index="126"]
+visible = false
+
+[node name="Hat_015" parent="rig/Skeleton3D" index="127"]
+visible = false
+
+[node name="Hat_016" parent="rig/Skeleton3D" index="128"]
+visible = false
+
+[node name="Hat_017" parent="rig/Skeleton3D" index="129"]
+visible = false
+
+[node name="Hat_018" parent="rig/Skeleton3D" index="130"]
+visible = false
+
+[node name="Hat_019" parent="rig/Skeleton3D" index="131"]
+visible = false
+
+[node name="Hat_020" parent="rig/Skeleton3D" index="132"]
+visible = false
+
+[node name="Hat_021" parent="rig/Skeleton3D" index="133"]
+visible = false
+
+[node name="Hat_022" parent="rig/Skeleton3D" index="134"]
+visible = false
+
+[node name="Hat_023" parent="rig/Skeleton3D" index="135"]
+visible = false
+
+[node name="Hat_024" parent="rig/Skeleton3D" index="136"]
+visible = false
+
+[node name="Hat_025" parent="rig/Skeleton3D" index="137"]
+visible = false
+
+[node name="Hat_026" parent="rig/Skeleton3D" index="138"]
+visible = false
+
+[node name="Hat_027" parent="rig/Skeleton3D" index="139"]
+visible = false
+
+[node name="Hat_028" parent="rig/Skeleton3D" index="140"]
+visible = false
+
+[node name="Hat_029" parent="rig/Skeleton3D" index="141"]
+visible = false
+
+[node name="Hat_030" parent="rig/Skeleton3D" index="142"]
+visible = false
+
+[node name="Hat_031" parent="rig/Skeleton3D" index="143"]
+visible = false
+
+[node name="Hat_032" parent="rig/Skeleton3D" index="144"]
+visible = false
+
+[node name="Hat_033" parent="rig/Skeleton3D" index="145"]
+visible = false
+
+[node name="Hat_034" parent="rig/Skeleton3D" index="146"]
+visible = false
+
+[node name="Hat_035" parent="rig/Skeleton3D" index="147"]
+visible = false
+
+[node name="Hat_036" parent="rig/Skeleton3D" index="148"]
+visible = false
+
+[node name="Hat_037" parent="rig/Skeleton3D" index="149"]
+visible = false
+
+[node name="Hat_038" parent="rig/Skeleton3D" index="150"]
+visible = false
+
+[node name="Hat_039" parent="rig/Skeleton3D" index="151"]
+visible = false
+
+[node name="Hat_040" parent="rig/Skeleton3D" index="152"]
+visible = false
+
+[node name="Hat_041" parent="rig/Skeleton3D" index="153"]
+visible = false
+
+[node name="Hat_042" parent="rig/Skeleton3D" index="154"]
+visible = false
+
+[node name="Hat_043" parent="rig/Skeleton3D" index="155"]
+visible = false
+
+[node name="Hat_044" parent="rig/Skeleton3D" index="156"]
+visible = false
+
+[node name="Hat_045" parent="rig/Skeleton3D" index="157"]
+visible = false
+
+[node name="Hat_046" parent="rig/Skeleton3D" index="158"]
+visible = false
+
+[node name="Hat_047" parent="rig/Skeleton3D" index="159"]
+visible = false
+
+[node name="Hat_048" parent="rig/Skeleton3D" index="160"]
+visible = false
+
+[node name="Hat_049" parent="rig/Skeleton3D" index="161"]
+visible = false
+
+[node name="Hat_050" parent="rig/Skeleton3D" index="162"]
+visible = false
+
+[node name="Hat_051" parent="rig/Skeleton3D" index="163"]
+visible = false
+
+[node name="Hat_052" parent="rig/Skeleton3D" index="164"]
+visible = false
+
+[node name="Hat_053" parent="rig/Skeleton3D" index="165"]
+visible = false
+
+[node name="Hat_054" parent="rig/Skeleton3D" index="166"]
+visible = false
+
+[node name="Hat_055" parent="rig/Skeleton3D" index="167"]
+visible = false
+
+[node name="Hat_056" parent="rig/Skeleton3D" index="168"]
+visible = false
+
+[node name="Hat_057" parent="rig/Skeleton3D" index="169"]
+visible = false
+
+[node name="Hat_058" parent="rig/Skeleton3D" index="170"]
+visible = false
+
+[node name="Hat_059" parent="rig/Skeleton3D" index="171"]
+visible = false
+
+[node name="Hat_060" parent="rig/Skeleton3D" index="172"]
+visible = false
+
+[node name="Hat_061" parent="rig/Skeleton3D" index="173"]
+visible = false
+
+[node name="Hat_062" parent="rig/Skeleton3D" index="174"]
+visible = false
+
+[node name="Hat_063" parent="rig/Skeleton3D" index="175"]
+visible = false
+
+[node name="Hat_064" parent="rig/Skeleton3D" index="176"]
+visible = false
+
+[node name="Hat_065" parent="rig/Skeleton3D" index="177"]
+visible = false
+
+[node name="Hat_066" parent="rig/Skeleton3D" index="178"]
+visible = false
+
+[node name="Hat_067" parent="rig/Skeleton3D" index="179"]
+visible = false
+
+[node name="Hat_068" parent="rig/Skeleton3D" index="180"]
+visible = false
+
+[node name="Hat_069" parent="rig/Skeleton3D" index="181"]
+visible = false
+
+[node name="Hat_070" parent="rig/Skeleton3D" index="182"]
+visible = false
+
+[node name="Hat_071" parent="rig/Skeleton3D" index="183"]
+visible = false
+
+[node name="Hat_072" parent="rig/Skeleton3D" index="184"]
+visible = false
+
+[node name="Hat_073" parent="rig/Skeleton3D" index="185"]
+visible = false
+
+[node name="Hat_074" parent="rig/Skeleton3D" index="186"]
+visible = false
+
+[node name="Hat_075" parent="rig/Skeleton3D" index="187"]
+visible = false
+
+[node name="Hat_076" parent="rig/Skeleton3D" index="188"]
+visible = false
+
+[node name="Hat_077" parent="rig/Skeleton3D" index="189"]
+visible = false
+
+[node name="Hat_078" parent="rig/Skeleton3D" index="190"]
+visible = false
+
+[node name="Hat_079" parent="rig/Skeleton3D" index="191"]
+visible = false
+
+[node name="Hat_080" parent="rig/Skeleton3D" index="192"]
+visible = false
+
+[node name="Hat_081" parent="rig/Skeleton3D" index="193"]
+visible = false
+
+[node name="Hat_082" parent="rig/Skeleton3D" index="194"]
+visible = false
+
+[node name="Hat_083" parent="rig/Skeleton3D" index="195"]
+visible = false
+
+[node name="Hat_084" parent="rig/Skeleton3D" index="196"]
+visible = false
+
+[node name="Hat_085" parent="rig/Skeleton3D" index="197"]
+visible = false
+
+[node name="Hat_086" parent="rig/Skeleton3D" index="198"]
+visible = false
+
+[node name="Hat_087" parent="rig/Skeleton3D" index="199"]
+visible = false
+
+[node name="Hat_088" parent="rig/Skeleton3D" index="200"]
+visible = false
+
+[node name="Hat_089" parent="rig/Skeleton3D" index="201"]
+visible = false
+
+[node name="Hat_090" parent="rig/Skeleton3D" index="202"]
+visible = false
+
+[node name="Hat_091" parent="rig/Skeleton3D" index="203"]
+visible = false
+
+[node name="Hat_092" parent="rig/Skeleton3D" index="204"]
+visible = false
+
+[node name="Hat_093" parent="rig/Skeleton3D" index="205"]
+visible = false
+
+[node name="Hat_094" parent="rig/Skeleton3D" index="206"]
+visible = false
+
+[node name="Hat_095" parent="rig/Skeleton3D" index="207"]
+visible = false
+
+[node name="Hat_096" parent="rig/Skeleton3D" index="208"]
+visible = false
+
+[node name="Hat_097" parent="rig/Skeleton3D" index="209"]
+visible = false
+
+[node name="Hat_098" parent="rig/Skeleton3D" index="210"]
+visible = false
+
+[node name="Hat_099" parent="rig/Skeleton3D" index="211"]
+visible = false
+
+[node name="Hat_100" parent="rig/Skeleton3D" index="212"]
+visible = false
+
+[node name="Hat_101" parent="rig/Skeleton3D" index="213"]
+visible = false
+
+[node name="Mushroom_001" parent="rig/Skeleton3D" index="214"]
+visible = false
+
+[node name="Mustache_Black_001" parent="rig/Skeleton3D" index="215"]
+visible = false
+
+[node name="Mustache_Brown_001" parent="rig/Skeleton3D" index="216"]
+visible = false
+
+[node name="Mustache_White_001" parent="rig/Skeleton3D" index="217"]
+visible = false
+
+[node name="Nightstand_001" parent="rig/Skeleton3D" index="218"]
+visible = false
+
+[node name="Ostrich_001" parent="rig/Skeleton3D" index="219"]
+visible = false
+
+[node name="Outerwear_Black_001" parent="rig/Skeleton3D" index="220"]
+visible = false
+
+[node name="Outerwear_Black_002" parent="rig/Skeleton3D" index="221"]
+visible = false
+
+[node name="Outerwear_Black_003" parent="rig/Skeleton3D" index="222"]
+visible = false
+
+[node name="Outerwear_Black_004" parent="rig/Skeleton3D" index="223"]
+visible = false
+
+[node name="Outerwear_Black_005" parent="rig/Skeleton3D" index="224"]
+visible = false
+
+[node name="Outerwear_Black_006" parent="rig/Skeleton3D" index="225"]
+visible = false
+
+[node name="Outerwear_Black_007" parent="rig/Skeleton3D" index="226"]
+visible = false
+
+[node name="Outerwear_Black_008" parent="rig/Skeleton3D" index="227"]
+visible = false
+
+[node name="Outerwear_Black_009" parent="rig/Skeleton3D" index="228"]
+visible = false
+
+[node name="Outerwear_Black_010" parent="rig/Skeleton3D" index="229"]
+visible = false
+
+[node name="Outerwear_Black_011" parent="rig/Skeleton3D" index="230"]
+visible = false
+
+[node name="Outerwear_Black_012" parent="rig/Skeleton3D" index="231"]
+visible = false
+
+[node name="Outerwear_Black_013" parent="rig/Skeleton3D" index="232"]
+visible = false
+
+[node name="Outerwear_Black_014" parent="rig/Skeleton3D" index="233"]
+visible = false
+
+[node name="Outerwear_Black_015" parent="rig/Skeleton3D" index="234"]
+visible = false
+
+[node name="Outerwear_Black_016" parent="rig/Skeleton3D" index="235"]
+visible = false
+
+[node name="Outerwear_Blue_001" parent="rig/Skeleton3D" index="236"]
+visible = false
+
+[node name="Outerwear_Blue_002" parent="rig/Skeleton3D" index="237"]
+visible = false
+
+[node name="Outerwear_Blue_003" parent="rig/Skeleton3D" index="238"]
+visible = false
+
+[node name="Outerwear_Blue_004" parent="rig/Skeleton3D" index="239"]
+visible = false
+
+[node name="Outerwear_Blue_005" parent="rig/Skeleton3D" index="240"]
+visible = false
+
+[node name="Outerwear_Blue_006" parent="rig/Skeleton3D" index="241"]
+visible = false
+
+[node name="Outerwear_Blue_007" parent="rig/Skeleton3D" index="242"]
+visible = false
+
+[node name="Outerwear_Blue_008" parent="rig/Skeleton3D" index="243"]
+visible = false
+
+[node name="Outerwear_Blue_009" parent="rig/Skeleton3D" index="244"]
+visible = false
+
+[node name="Outerwear_Blue_010" parent="rig/Skeleton3D" index="245"]
+visible = false
+
+[node name="Outerwear_Blue_011" parent="rig/Skeleton3D" index="246"]
+visible = false
+
+[node name="Outerwear_Blue_012" parent="rig/Skeleton3D" index="247"]
+visible = false
+
+[node name="Outerwear_Blue_013" parent="rig/Skeleton3D" index="248"]
+visible = false
+
+[node name="Outerwear_Blue_014" parent="rig/Skeleton3D" index="249"]
+visible = false
+
+[node name="Outerwear_Blue_015" parent="rig/Skeleton3D" index="250"]
+visible = false
+
+[node name="Outerwear_Blue_016" parent="rig/Skeleton3D" index="251"]
+visible = false
+
+[node name="Outerwear_Brown_001" parent="rig/Skeleton3D" index="252"]
+visible = false
+
+[node name="Outerwear_Brown_002" parent="rig/Skeleton3D" index="253"]
+visible = false
+
+[node name="Outerwear_Brown_003" parent="rig/Skeleton3D" index="254"]
+visible = false
+
+[node name="Outerwear_Brown_004" parent="rig/Skeleton3D" index="255"]
+visible = false
+
+[node name="Outerwear_Brown_005" parent="rig/Skeleton3D" index="256"]
+visible = false
+
+[node name="Outerwear_Brown_006" parent="rig/Skeleton3D" index="257"]
+visible = false
+
+[node name="Outerwear_Brown_007" parent="rig/Skeleton3D" index="258"]
+visible = false
+
+[node name="Outerwear_Brown_008" parent="rig/Skeleton3D" index="259"]
+visible = false
+
+[node name="Outerwear_Brown_009" parent="rig/Skeleton3D" index="260"]
+visible = false
+
+[node name="Outerwear_Brown_010" parent="rig/Skeleton3D" index="261"]
+visible = false
+
+[node name="Outerwear_Brown_011" parent="rig/Skeleton3D" index="262"]
+visible = false
+
+[node name="Outerwear_Brown_012" parent="rig/Skeleton3D" index="263"]
+visible = false
+
+[node name="Outerwear_Brown_013" parent="rig/Skeleton3D" index="264"]
+visible = false
+
+[node name="Outerwear_Brown_014" parent="rig/Skeleton3D" index="265"]
+visible = false
+
+[node name="Outerwear_Brown_015" parent="rig/Skeleton3D" index="266"]
+visible = false
+
+[node name="Outerwear_Brown_016" parent="rig/Skeleton3D" index="267"]
+visible = false
+
+[node name="Outerwear_Green_001" parent="rig/Skeleton3D" index="268"]
+visible = false
+
+[node name="Outerwear_Green_002" parent="rig/Skeleton3D" index="269"]
+visible = false
+
+[node name="Outerwear_Green_003" parent="rig/Skeleton3D" index="270"]
+visible = false
+
+[node name="Outerwear_Green_004" parent="rig/Skeleton3D" index="271"]
+visible = false
+
+[node name="Outerwear_Green_005" parent="rig/Skeleton3D" index="272"]
+visible = false
+
+[node name="Outerwear_Green_006" parent="rig/Skeleton3D" index="273"]
+visible = false
+
+[node name="Outerwear_Green_007" parent="rig/Skeleton3D" index="274"]
+visible = false
+
+[node name="Outerwear_Green_008" parent="rig/Skeleton3D" index="275"]
+visible = false
+
+[node name="Outerwear_Green_009" parent="rig/Skeleton3D" index="276"]
+visible = false
+
+[node name="Outerwear_Green_010" parent="rig/Skeleton3D" index="277"]
+visible = false
+
+[node name="Outerwear_Green_011" parent="rig/Skeleton3D" index="278"]
+visible = false
+
+[node name="Outerwear_Green_012" parent="rig/Skeleton3D" index="279"]
+visible = false
+
+[node name="Outerwear_Green_013" parent="rig/Skeleton3D" index="280"]
+visible = false
+
+[node name="Outerwear_Green_014" parent="rig/Skeleton3D" index="281"]
+visible = false
+
+[node name="Outerwear_Green_015" parent="rig/Skeleton3D" index="282"]
+visible = false
+
+[node name="Outerwear_Green_016" parent="rig/Skeleton3D" index="283"]
+visible = false
+
+[node name="Outerwear_Light_Blue_001" parent="rig/Skeleton3D" index="284"]
+visible = false
+
+[node name="Outerwear_Light_Blue_002" parent="rig/Skeleton3D" index="285"]
+visible = false
+
+[node name="Outerwear_Light_Blue_003" parent="rig/Skeleton3D" index="286"]
+visible = false
+
+[node name="Outerwear_Light_Blue_004" parent="rig/Skeleton3D" index="287"]
+visible = false
+
+[node name="Outerwear_Light_Blue_005" parent="rig/Skeleton3D" index="288"]
+visible = false
+
+[node name="Outerwear_Light_Blue_006" parent="rig/Skeleton3D" index="289"]
+visible = false
+
+[node name="Outerwear_Light_Blue_007" parent="rig/Skeleton3D" index="290"]
+visible = false
+
+[node name="Outerwear_Light_Blue_008" parent="rig/Skeleton3D" index="291"]
+visible = false
+
+[node name="Outerwear_Light_Blue_009" parent="rig/Skeleton3D" index="292"]
+visible = false
+
+[node name="Outerwear_Light_Blue_010" parent="rig/Skeleton3D" index="293"]
+visible = false
+
+[node name="Outerwear_Light_Blue_011" parent="rig/Skeleton3D" index="294"]
+visible = false
+
+[node name="Outerwear_Light_Blue_012" parent="rig/Skeleton3D" index="295"]
+visible = false
+
+[node name="Outerwear_Light_Blue_013" parent="rig/Skeleton3D" index="296"]
+visible = false
+
+[node name="Outerwear_Light_Blue_014" parent="rig/Skeleton3D" index="297"]
+visible = false
+
+[node name="Outerwear_Light_Blue_015" parent="rig/Skeleton3D" index="298"]
+visible = false
+
+[node name="Outerwear_Light_Blue_016" parent="rig/Skeleton3D" index="299"]
+visible = false
+
+[node name="Outerwear_Orange_001" parent="rig/Skeleton3D" index="300"]
+visible = false
+
+[node name="Outerwear_Orange_002" parent="rig/Skeleton3D" index="301"]
+visible = false
+
+[node name="Outerwear_Orange_003" parent="rig/Skeleton3D" index="302"]
+visible = false
+
+[node name="Outerwear_Orange_004" parent="rig/Skeleton3D" index="303"]
+visible = false
+
+[node name="Outerwear_Orange_005" parent="rig/Skeleton3D" index="304"]
+visible = false
+
+[node name="Outerwear_Orange_006" parent="rig/Skeleton3D" index="305"]
+visible = false
+
+[node name="Outerwear_Orange_007" parent="rig/Skeleton3D" index="306"]
+visible = false
+
+[node name="Outerwear_Orange_008" parent="rig/Skeleton3D" index="307"]
+visible = false
+
+[node name="Outerwear_Orange_009" parent="rig/Skeleton3D" index="308"]
+visible = false
+
+[node name="Outerwear_Orange_010" parent="rig/Skeleton3D" index="309"]
+visible = false
+
+[node name="Outerwear_Orange_011" parent="rig/Skeleton3D" index="310"]
+visible = false
+
+[node name="Outerwear_Orange_012" parent="rig/Skeleton3D" index="311"]
+visible = false
+
+[node name="Outerwear_Orange_013" parent="rig/Skeleton3D" index="312"]
+visible = false
+
+[node name="Outerwear_Orange_014" parent="rig/Skeleton3D" index="313"]
+visible = false
+
+[node name="Outerwear_Orange_015" parent="rig/Skeleton3D" index="314"]
+visible = false
+
+[node name="Outerwear_Orange_016" parent="rig/Skeleton3D" index="315"]
+visible = false
+
+[node name="Outerwear_Pink_001" parent="rig/Skeleton3D" index="316"]
+visible = false
+
+[node name="Outerwear_Pink_002" parent="rig/Skeleton3D" index="317"]
+visible = false
+
+[node name="Outerwear_Pink_003" parent="rig/Skeleton3D" index="318"]
+visible = false
+
+[node name="Outerwear_Pink_004" parent="rig/Skeleton3D" index="319"]
+visible = false
+
+[node name="Outerwear_Pink_005" parent="rig/Skeleton3D" index="320"]
+visible = false
+
+[node name="Outerwear_Pink_006" parent="rig/Skeleton3D" index="321"]
+visible = false
+
+[node name="Outerwear_Pink_007" parent="rig/Skeleton3D" index="322"]
+visible = false
+
+[node name="Outerwear_Pink_008" parent="rig/Skeleton3D" index="323"]
+visible = false
+
+[node name="Outerwear_Pink_009" parent="rig/Skeleton3D" index="324"]
+visible = false
+
+[node name="Outerwear_Pink_010" parent="rig/Skeleton3D" index="325"]
+visible = false
+
+[node name="Outerwear_Pink_011" parent="rig/Skeleton3D" index="326"]
+visible = false
+
+[node name="Outerwear_Pink_012" parent="rig/Skeleton3D" index="327"]
+visible = false
+
+[node name="Outerwear_Pink_013" parent="rig/Skeleton3D" index="328"]
+visible = false
+
+[node name="Outerwear_Pink_014" parent="rig/Skeleton3D" index="329"]
+visible = false
+
+[node name="Outerwear_Pink_015" parent="rig/Skeleton3D" index="330"]
+visible = false
+
+[node name="Outerwear_Pink_016" parent="rig/Skeleton3D" index="331"]
+visible = false
+
+[node name="Outerwear_Red_001" parent="rig/Skeleton3D" index="332"]
+visible = false
+
+[node name="Outerwear_Red_002" parent="rig/Skeleton3D" index="333"]
+visible = false
+
+[node name="Outerwear_Red_003" parent="rig/Skeleton3D" index="334"]
+visible = false
+
+[node name="Outerwear_Red_004" parent="rig/Skeleton3D" index="335"]
+visible = false
+
+[node name="Outerwear_Red_005" parent="rig/Skeleton3D" index="336"]
+visible = false
+
+[node name="Outerwear_Red_006" parent="rig/Skeleton3D" index="337"]
+visible = false
+
+[node name="Outerwear_Red_007" parent="rig/Skeleton3D" index="338"]
+visible = false
+
+[node name="Outerwear_Red_008" parent="rig/Skeleton3D" index="339"]
+visible = false
+
+[node name="Outerwear_Red_009" parent="rig/Skeleton3D" index="340"]
+visible = false
+
+[node name="Outerwear_Red_010" parent="rig/Skeleton3D" index="341"]
+visible = false
+
+[node name="Outerwear_Red_011" parent="rig/Skeleton3D" index="342"]
+visible = false
+
+[node name="Outerwear_Red_012" parent="rig/Skeleton3D" index="343"]
+visible = false
+
+[node name="Outerwear_Red_013" parent="rig/Skeleton3D" index="344"]
+visible = false
+
+[node name="Outerwear_Red_014" parent="rig/Skeleton3D" index="345"]
+visible = false
+
+[node name="Outerwear_Red_015" parent="rig/Skeleton3D" index="346"]
+visible = false
+
+[node name="Outerwear_Red_016" parent="rig/Skeleton3D" index="347"]
+visible = false
+
+[node name="Outerwear_White_001" parent="rig/Skeleton3D" index="348"]
+visible = false
+
+[node name="Outerwear_White_002" parent="rig/Skeleton3D" index="349"]
+visible = false
+
+[node name="Outerwear_White_003" parent="rig/Skeleton3D" index="350"]
+visible = false
+
+[node name="Outerwear_White_004" parent="rig/Skeleton3D" index="351"]
+visible = false
+
+[node name="Outerwear_White_005" parent="rig/Skeleton3D" index="352"]
+visible = false
+
+[node name="Outerwear_White_006" parent="rig/Skeleton3D" index="353"]
+visible = false
+
+[node name="Outerwear_White_007" parent="rig/Skeleton3D" index="354"]
+visible = false
+
+[node name="Outerwear_White_008" parent="rig/Skeleton3D" index="355"]
+visible = false
+
+[node name="Outerwear_White_009" parent="rig/Skeleton3D" index="356"]
+visible = false
+
+[node name="Outerwear_White_010" parent="rig/Skeleton3D" index="357"]
+visible = false
+
+[node name="Outerwear_White_011" parent="rig/Skeleton3D" index="358"]
+visible = false
+
+[node name="Outerwear_White_012" parent="rig/Skeleton3D" index="359"]
+visible = false
+
+[node name="Outerwear_White_013" parent="rig/Skeleton3D" index="360"]
+visible = false
+
+[node name="Outerwear_White_014" parent="rig/Skeleton3D" index="361"]
+visible = false
+
+[node name="Outerwear_White_015" parent="rig/Skeleton3D" index="362"]
+visible = false
+
+[node name="Outerwear_White_016" parent="rig/Skeleton3D" index="363"]
+visible = false
+
+[node name="Outerwear_Yellow_001" parent="rig/Skeleton3D" index="364"]
+visible = false
+
+[node name="Outerwear_Yellow_002" parent="rig/Skeleton3D" index="365"]
+visible = false
+
+[node name="Outerwear_Yellow_003" parent="rig/Skeleton3D" index="366"]
+visible = false
+
+[node name="Outerwear_Yellow_004" parent="rig/Skeleton3D" index="367"]
+visible = false
+
+[node name="Outerwear_Yellow_005" parent="rig/Skeleton3D" index="368"]
+visible = false
+
+[node name="Outerwear_Yellow_006" parent="rig/Skeleton3D" index="369"]
+visible = false
+
+[node name="Outerwear_Yellow_007" parent="rig/Skeleton3D" index="370"]
+visible = false
+
+[node name="Outerwear_Yellow_008" parent="rig/Skeleton3D" index="371"]
+visible = false
+
+[node name="Outerwear_Yellow_009" parent="rig/Skeleton3D" index="372"]
+visible = false
+
+[node name="Outerwear_Yellow_010" parent="rig/Skeleton3D" index="373"]
+visible = false
+
+[node name="Outerwear_Yellow_011" parent="rig/Skeleton3D" index="374"]
+visible = false
+
+[node name="Outerwear_Yellow_012" parent="rig/Skeleton3D" index="375"]
+visible = false
+
+[node name="Outerwear_Yellow_013" parent="rig/Skeleton3D" index="376"]
+visible = false
+
+[node name="Outerwear_Yellow_014" parent="rig/Skeleton3D" index="377"]
+visible = false
+
+[node name="Outerwear_Yellow_015" parent="rig/Skeleton3D" index="378"]
+visible = false
+
+[node name="Outerwear_Yellow_016" parent="rig/Skeleton3D" index="379"]
+visible = false
+
+[node name="Palm_001" parent="rig/Skeleton3D" index="380"]
+visible = false
+
+[node name="Pants_Black_001" parent="rig/Skeleton3D" index="381"]
+visible = false
+
+[node name="Pants_Black_002" parent="rig/Skeleton3D" index="382"]
+visible = false
+
+[node name="Pants_Black_003" parent="rig/Skeleton3D" index="383"]
+visible = false
+
+[node name="Pants_Black_004" parent="rig/Skeleton3D" index="384"]
+visible = false
+
+[node name="Pants_Black_005" parent="rig/Skeleton3D" index="385"]
+visible = false
+
+[node name="Pants_Black_006" parent="rig/Skeleton3D" index="386"]
+visible = false
+
+[node name="Pants_Blue_001" parent="rig/Skeleton3D" index="387"]
+visible = false
+
+[node name="Pants_Blue_002" parent="rig/Skeleton3D" index="388"]
+visible = false
+
+[node name="Pants_Blue_003" parent="rig/Skeleton3D" index="389"]
+visible = false
+
+[node name="Pants_Blue_004" parent="rig/Skeleton3D" index="390"]
+visible = false
+
+[node name="Pants_Blue_005" parent="rig/Skeleton3D" index="391"]
+visible = false
+
+[node name="Pants_Blue_006" parent="rig/Skeleton3D" index="392"]
+visible = false
+
+[node name="Pants_Brown_001" parent="rig/Skeleton3D" index="393"]
+visible = false
+
+[node name="Pants_Brown_002" parent="rig/Skeleton3D" index="394"]
+visible = false
+
+[node name="Pants_Brown_003" parent="rig/Skeleton3D" index="395"]
+visible = false
+
+[node name="Pants_Brown_004" parent="rig/Skeleton3D" index="396"]
+visible = false
+
+[node name="Pants_Brown_005" parent="rig/Skeleton3D" index="397"]
+visible = false
+
+[node name="Pants_Brown_006" parent="rig/Skeleton3D" index="398"]
+visible = false
+
+[node name="Pants_Green_001" parent="rig/Skeleton3D" index="399"]
+visible = false
+
+[node name="Pants_Green_002" parent="rig/Skeleton3D" index="400"]
+visible = false
+
+[node name="Pants_Green_003" parent="rig/Skeleton3D" index="401"]
+visible = false
+
+[node name="Pants_Green_004" parent="rig/Skeleton3D" index="402"]
+visible = false
+
+[node name="Pants_Green_005" parent="rig/Skeleton3D" index="403"]
+visible = false
+
+[node name="Pants_Green_006" parent="rig/Skeleton3D" index="404"]
+visible = false
+
+[node name="Pants_Light_Blue_001" parent="rig/Skeleton3D" index="405"]
+visible = false
+
+[node name="Pants_Light_Blue_002" parent="rig/Skeleton3D" index="406"]
+visible = false
+
+[node name="Pants_Light_Blue_003" parent="rig/Skeleton3D" index="407"]
+visible = false
+
+[node name="Pants_Light_Blue_004" parent="rig/Skeleton3D" index="408"]
+visible = false
+
+[node name="Pants_Light_Blue_005" parent="rig/Skeleton3D" index="409"]
+visible = false
+
+[node name="Pants_Light_Blue_006" parent="rig/Skeleton3D" index="410"]
+visible = false
+
+[node name="Pants_Orange_001" parent="rig/Skeleton3D" index="411"]
+visible = false
+
+[node name="Pants_Orange_002" parent="rig/Skeleton3D" index="412"]
+visible = false
+
+[node name="Pants_Orange_003" parent="rig/Skeleton3D" index="413"]
+visible = false
+
+[node name="Pants_Orange_004" parent="rig/Skeleton3D" index="414"]
+visible = false
+
+[node name="Pants_Orange_005" parent="rig/Skeleton3D" index="415"]
+visible = false
+
+[node name="Pants_Orange_006" parent="rig/Skeleton3D" index="416"]
+visible = false
+
+[node name="Pants_Pink_001" parent="rig/Skeleton3D" index="417"]
+visible = false
+
+[node name="Pants_Pink_002" parent="rig/Skeleton3D" index="418"]
+visible = false
+
+[node name="Pants_Pink_003" parent="rig/Skeleton3D" index="419"]
+visible = false
+
+[node name="Pants_Pink_004" parent="rig/Skeleton3D" index="420"]
+visible = false
+
+[node name="Pants_Pink_005" parent="rig/Skeleton3D" index="421"]
+visible = false
+
+[node name="Pants_Pink_006" parent="rig/Skeleton3D" index="422"]
+visible = false
+
+[node name="Pants_Red_001" parent="rig/Skeleton3D" index="423"]
+visible = false
+
+[node name="Pants_Red_002" parent="rig/Skeleton3D" index="424"]
+visible = false
+
+[node name="Pants_Red_003" parent="rig/Skeleton3D" index="425"]
+visible = false
+
+[node name="Pants_Red_004" parent="rig/Skeleton3D" index="426"]
+visible = false
+
+[node name="Pants_Red_005" parent="rig/Skeleton3D" index="427"]
+visible = false
+
+[node name="Pants_Red_006" parent="rig/Skeleton3D" index="428"]
+visible = false
+
+[node name="Pants_White_001" parent="rig/Skeleton3D" index="429"]
+visible = false
+
+[node name="Pants_White_002" parent="rig/Skeleton3D" index="430"]
+visible = false
+
+[node name="Pants_White_003" parent="rig/Skeleton3D" index="431"]
+visible = false
+
+[node name="Pants_White_004" parent="rig/Skeleton3D" index="432"]
+visible = false
+
+[node name="Pants_White_005" parent="rig/Skeleton3D" index="433"]
+visible = false
+
+[node name="Pants_White_006" parent="rig/Skeleton3D" index="434"]
+visible = false
+
+[node name="Hair_002" parent="rig/Skeleton3D" index="435"]
+visible = false
+
+[node name="Hair_003" parent="rig/Skeleton3D" index="436"]
+visible = false
+
+[node name="Hair_004" parent="rig/Skeleton3D" index="437"]
+visible = false
+
+[node name="Hair_005" parent="rig/Skeleton3D" index="438"]
+visible = false
+
+[node name="Hair_006" parent="rig/Skeleton3D" index="439"]
+visible = false
+
+[node name="Hair_007" parent="rig/Skeleton3D" index="440"]
+visible = false
+
+[node name="Hair_008" parent="rig/Skeleton3D" index="441"]
+visible = false
+
+[node name="Hair_009" parent="rig/Skeleton3D" index="442"]
+visible = false
+
+[node name="Hair_010" parent="rig/Skeleton3D" index="443"]
+visible = false
+
+[node name="Hair_011" parent="rig/Skeleton3D" index="444"]
+visible = false
+
+[node name="Hair_012" parent="rig/Skeleton3D" index="445"]
+visible = false
+
+[node name="Hair_013" parent="rig/Skeleton3D" index="446"]
+visible = false
+
+[node name="Hair_014" parent="rig/Skeleton3D" index="447"]
+visible = false
+
+[node name="Hair_015" parent="rig/Skeleton3D" index="448"]
+visible = false
+
+[node name="Hair_016" parent="rig/Skeleton3D" index="449"]
+visible = false
+
+[node name="Hair_017" parent="rig/Skeleton3D" index="450"]
+visible = false
+
+[node name="Hair_018" parent="rig/Skeleton3D" index="451"]
+visible = false
+
+[node name="Hair_019" parent="rig/Skeleton3D" index="452"]
+visible = false
+
+[node name="Hair_020" parent="rig/Skeleton3D" index="453"]
+visible = false
+
+[node name="Hair_021" parent="rig/Skeleton3D" index="454"]
+visible = false
+
+[node name="Hair_022" parent="rig/Skeleton3D" index="455"]
+visible = false
+
+[node name="Hair_023" parent="rig/Skeleton3D" index="456"]
+visible = false
+
+[node name="Hair_024" parent="rig/Skeleton3D" index="457"]
+visible = false
+
+[node name="Hair_025" parent="rig/Skeleton3D" index="458"]
+visible = false
+
+[node name="Hair_026" parent="rig/Skeleton3D" index="459"]
+visible = false
+
+[node name="Hair_027" parent="rig/Skeleton3D" index="460"]
+visible = false
+
+[node name="Mustache_Black_002" parent="rig/Skeleton3D" index="461"]
+visible = false
+
+[node name="Mustache_Black_003" parent="rig/Skeleton3D" index="462"]
+visible = false
+
+[node name="Mustache_Black_004" parent="rig/Skeleton3D" index="463"]
+visible = false
+
+[node name="Mustache_Black_005" parent="rig/Skeleton3D" index="464"]
+visible = false
+
+[node name="Mustache_Black_006" parent="rig/Skeleton3D" index="465"]
+visible = false
+
+[node name="Mustache_Black_007" parent="rig/Skeleton3D" index="466"]
+visible = false
+
+[node name="Mustache_Black_008" parent="rig/Skeleton3D" index="467"]
+visible = false
+
+[node name="Mustache_Black_009" parent="rig/Skeleton3D" index="468"]
+visible = false
+
+[node name="Mustache_Black_010" parent="rig/Skeleton3D" index="469"]
+visible = false
+
+[node name="Mustache_Black_011" parent="rig/Skeleton3D" index="470"]
+visible = false
+
+[node name="Mustache_Black_012" parent="rig/Skeleton3D" index="471"]
+visible = false
+
+[node name="Mustache_Brown_002" parent="rig/Skeleton3D" index="472"]
+visible = false
+
+[node name="Mustache_Brown_003" parent="rig/Skeleton3D" index="473"]
+visible = false
+
+[node name="Mustache_Brown_004" parent="rig/Skeleton3D" index="474"]
+visible = false
+
+[node name="Mustache_Brown_005" parent="rig/Skeleton3D" index="475"]
+visible = false
+
+[node name="Mustache_Brown_006" parent="rig/Skeleton3D" index="476"]
+visible = false
+
+[node name="Mustache_Brown_007" parent="rig/Skeleton3D" index="477"]
+visible = false
+
+[node name="Mustache_Brown_008" parent="rig/Skeleton3D" index="478"]
+visible = false
+
+[node name="Mustache_Brown_009" parent="rig/Skeleton3D" index="479"]
+visible = false
+
+[node name="Mustache_Brown_010" parent="rig/Skeleton3D" index="480"]
+visible = false
+
+[node name="Mustache_Brown_011" parent="rig/Skeleton3D" index="481"]
+visible = false
+
+[node name="Mustache_Brown_012" parent="rig/Skeleton3D" index="482"]
+visible = false
+
+[node name="Mustache_White_002" parent="rig/Skeleton3D" index="483"]
+visible = false
+
+[node name="Mustache_White_003" parent="rig/Skeleton3D" index="484"]
+visible = false
+
+[node name="Mustache_White_004" parent="rig/Skeleton3D" index="485"]
+visible = false
+
+[node name="Mustache_White_005" parent="rig/Skeleton3D" index="486"]
+visible = false
+
+[node name="Mustache_White_006" parent="rig/Skeleton3D" index="487"]
+visible = false
+
+[node name="Mustache_White_007" parent="rig/Skeleton3D" index="488"]
+visible = false
+
+[node name="Mustache_White_008" parent="rig/Skeleton3D" index="489"]
+visible = false
+
+[node name="Mustache_White_009" parent="rig/Skeleton3D" index="490"]
+visible = false
+
+[node name="Mustache_White_010" parent="rig/Skeleton3D" index="491"]
+visible = false
+
+[node name="Mustache_White_011" parent="rig/Skeleton3D" index="492"]
+visible = false
+
+[node name="Mustache_White_012" parent="rig/Skeleton3D" index="493"]
+visible = false
+
+[node name="Pants_Yellow_001" parent="rig/Skeleton3D" index="494"]
+visible = false
+
+[node name="Pants_Yellow_002" parent="rig/Skeleton3D" index="495"]
+visible = false
+
+[node name="Pants_Yellow_003" parent="rig/Skeleton3D" index="496"]
+visible = false
+
+[node name="Pants_Yellow_004" parent="rig/Skeleton3D" index="497"]
+visible = false
+
+[node name="Pants_Yellow_005" parent="rig/Skeleton3D" index="498"]
+visible = false
+
+[node name="Pants_Yellow_006" parent="rig/Skeleton3D" index="499"]
+visible = false
+
+[node name="Red_Fall_Guys_001" parent="rig/Skeleton3D" index="500"]
+visible = false
+
+[node name="Sausage_001" parent="rig/Skeleton3D" index="501"]
+visible = false
+
+[node name="Shark_001" parent="rig/Skeleton3D" index="502"]
+visible = false
+
+[node name="Shoe_Boot_001" parent="rig/Skeleton3D" index="503"]
+visible = false
+
+[node name="Shoe_Boot_002" parent="rig/Skeleton3D" index="504"]
+visible = false
+
+[node name="Shoe_Boot_003" parent="rig/Skeleton3D" index="505"]
+visible = false
+
+[node name="Shoe_Boot_004" parent="rig/Skeleton3D" index="506"]
+visible = false
+
+[node name="Shoe_Skate_001" parent="rig/Skeleton3D" index="507"]
+visible = false
+
+[node name="Shoe_Skate_002" parent="rig/Skeleton3D" index="508"]
+visible = false
+
+[node name="Shoe_Slipper_001" parent="rig/Skeleton3D" index="509"]
+visible = false
+
+[node name="Shoe_Slipper_002" parent="rig/Skeleton3D" index="510"]
+visible = false
+
+[node name="Shoe_Slipper_003" parent="rig/Skeleton3D" index="511"]
+visible = false
+
+[node name="Shoe_Slipper_004" parent="rig/Skeleton3D" index="512"]
+visible = false
+
+[node name="Shoe_Slipper_005" parent="rig/Skeleton3D" index="513"]
+visible = false
+
+[node name="Shoe_Slipper_006" parent="rig/Skeleton3D" index="514"]
+visible = false
+
+[node name="Shoe_Slipper_007" parent="rig/Skeleton3D" index="515"]
+visible = false
+
+[node name="Shoe_Sneaker_001" parent="rig/Skeleton3D" index="516"]
+visible = false
+
+[node name="Shoe_Sneaker_002" parent="rig/Skeleton3D" index="517"]
+visible = false
+
+[node name="Shoe_Sneaker_003" parent="rig/Skeleton3D" index="518"]
+visible = false
+
+[node name="Shoe_Sneaker_004" parent="rig/Skeleton3D" index="519"]
+visible = false
+
+[node name="Shoe_Sneaker_005" parent="rig/Skeleton3D" index="520"]
+visible = false
+
+[node name="Shoe_Sneaker_006" parent="rig/Skeleton3D" index="521"]
+visible = false
+
+[node name="Shoe_Sneaker_007" parent="rig/Skeleton3D" index="522"]
+visible = false
+
+[node name="Shoe_Sneaker_008" parent="rig/Skeleton3D" index="523"]
+visible = false
+
+[node name="Shoe_Sneaker_009" parent="rig/Skeleton3D" index="524"]
+visible = false
+
+[node name="Shoe_Sneaker_010" parent="rig/Skeleton3D" index="525"]
+visible = false
+
+[node name="Shoe_Sneaker_011" parent="rig/Skeleton3D" index="526"]
+visible = false
+
+[node name="Shoe_Sneaker_012" parent="rig/Skeleton3D" index="527"]
+visible = false
+
+[node name="Shoe_Sneaker_013" parent="rig/Skeleton3D" index="528"]
+visible = false
+
+[node name="Shoe_Sneaker_014" parent="rig/Skeleton3D" index="529"]
+visible = false
+
+[node name="Shoe_Sneaker_015" parent="rig/Skeleton3D" index="530"]
+visible = false
+
+[node name="Shoe_Sneaker_016" parent="rig/Skeleton3D" index="531"]
+visible = false
+
+[node name="Shoe_Sneaker_017" parent="rig/Skeleton3D" index="532"]
+visible = false
+
+[node name="Shoe_Sneaker_018" parent="rig/Skeleton3D" index="533"]
+visible = false
+
+[node name="Shoe_Sneaker_019" parent="rig/Skeleton3D" index="534"]
+visible = false
+
+[node name="Shoe_Sneaker_020" parent="rig/Skeleton3D" index="535"]
+visible = false
+
+[node name="Shoe_Sneaker_021" parent="rig/Skeleton3D" index="536"]
+visible = false
+
+[node name="Snake_001" parent="rig/Skeleton3D" index="537"]
+visible = false
+
+[node name="Snowman_001" parent="rig/Skeleton3D" index="538"]
+visible = false
+
+[node name="Sushi_001" parent="rig/Skeleton3D" index="539"]
+visible = false
+
+[node name="Tooth_001" parent="rig/Skeleton3D" index="540"]
+visible = false
+
+[node name="Trash_can_001" parent="rig/Skeleton3D" index="541"]
+visible = false
+
+[node name="UFO_001" parent="rig/Skeleton3D" index="542"]
+visible = false
+
+[node name="metarig_001" parent="." index="112"]
+visible = false
